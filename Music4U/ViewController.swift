@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let label = UILabel()
+        label.textColor = UIColor.white
+        label.font = label.font.withSize(24)
+        label.text = "Music4U"
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(customView: label)
     }
 
 
