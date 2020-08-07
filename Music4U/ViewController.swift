@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         let label = UILabel()
         label.textColor = UIColor.white
-        label.font = label.font.withSize(24)
+        label.font = UIFont(name: "HelveticaNeue-Bold", size: 20)
         label.text = "Music4U"
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(customView: label)
     }
